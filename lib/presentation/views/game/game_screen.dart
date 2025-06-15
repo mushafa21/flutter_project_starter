@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_project_starter/app/service_locator.dart';
 import 'package:flutter_project_starter/domain/models/game_model.dart';
 import 'package:flutter_project_starter/presentation/resources/values/dimension.dart';
 import 'package:flutter_project_starter/presentation/views/game/cubit/game_cubit.dart';

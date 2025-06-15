@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_project_starter/data/network/data_state.dart';
 import 'package:flutter_project_starter/domain/models/game_model.dart';
 import 'package:flutter_project_starter/domain/repository/game_repository.dart';
-import 'package:flutter_project_starter/domain/repository/implementation/game_repository_implementation.dart';
-import 'package:meta/meta.dart';
 
 part 'game_state.dart';
 

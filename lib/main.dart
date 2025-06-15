@@ -4,8 +4,6 @@ import 'package:flutter_project_starter/app/service_locator.dart';
 import 'package:flutter_project_starter/presentation/resources/routes.dart';
 import 'package:flutter_project_starter/presentation/resources/values/theme.dart';
 import 'package:flutter_project_starter/presentation/views/game/cubit/game_cubit.dart';
-import 'package:flutter_project_starter/presentation/views/game/game_screen.dart';
-import 'package:go_router/go_router.dart';
 
 
 void main() async {

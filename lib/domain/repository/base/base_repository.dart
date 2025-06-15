@@ -9,7 +9,6 @@ import '../../../data/network/data_state.dart';
 
 
 abstract class BaseRepository {
-  // final FirebaseDatabaseSender _firebaseDatabaseSender = FirebaseDatabaseSender();
   /// This method is responsible of handling the given `request`, in which
   /// it returns generic based `DataState`.
   ///
@@ -39,21 +38,13 @@ abstract class BaseRepository {
       if (kDebugMode) {
         print(error);
       }
-      try{
-        // _firebaseDatabaseSender.sendDioExceptionLog(dioException: error);
-      }catch(e){
 
-      }
       return DataStateError(error);
-    } catch (error,stackTrace) {
+    } catch (error) {
       if (kDebugMode) {
         print(error);
       }
-      try{
-        // _firebaseDatabaseSender.sendErrorMessageLog(message: error.toString(), stackTrace: stackTrace.toString());
-      }catch(e){
 
-      }
       final dioError = DioException(
         response: null,
         requestOptions: RequestOptions(),

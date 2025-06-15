@@ -41,7 +41,7 @@ const Color dark2Color = Color(0xFF1F222A);
 
 const Color shimmerColor = Color(0xFFB4B4B4);
 const Color shimmerHighlightColor = whiteColor;
-const Color transparentColor = Color(0xff00ffffff);
+const Color transparentColor = Color(0x00000000);
 
 
 
@@ -56,7 +56,7 @@ const Color backgroundDisable = Color(0x66330000);
 const Color dividerColor = Color(0xFFD4D4D4);
 
 const Color whiteColor = Color(0xFFFFFFFF);
-const Color shadowColor = Color(0xD04060F);
+const Color shadowColor = Color(0x0d04060f);
 
 const Gradient acceptTripGradient = LinearGradient(
     begin: Alignment.centerLeft,

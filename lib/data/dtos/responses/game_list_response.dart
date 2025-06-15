@@ -3,7 +3,6 @@
 import 'package:flutter_project_starter/data/dtos/game_dto.dart';
 import 'package:json_annotation/json_annotation.dart';
 
-
 part 'game_list_response.g.dart';
 
 

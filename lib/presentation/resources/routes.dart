@@ -4,6 +4,7 @@ import 'package:flutter_project_starter/presentation/views/game/favorited_game_s
 import 'package:flutter_project_starter/presentation/views/game/game_detail_screen.dart';
 import 'package:flutter_project_starter/presentation/views/home/home_screen.dart';
 import 'package:go_router/go_router.dart';
+
 import '../views/game/game_screen.dart';
 
 final rootPath = "/";
