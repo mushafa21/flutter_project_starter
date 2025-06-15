@@ -30,6 +30,8 @@ jobs:
 
       - name: Run code generator
         run: flutter pub run build_runner build --delete-conflicting-outputs
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
 
       - name: Analyze project source
         run: flutter analyze
